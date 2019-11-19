@@ -43,14 +43,14 @@ emaill = Label(window, text="Email:", font=("Comic Sans Ms Bold", 20))
 emaill.grid(column=0, row=4, sticky=E, padx=5, pady=5)
 email = Entry(window, width=40)
 email.grid(column=1, row=4, sticky=E, padx=5, pady=5)
-ema = Label(window, text="Email: 2018kucp1131@iiitkota.ac.in", font=("Comic Sans Ms", 15),
+ema = Label(window, text="Email: 2018kucp****@iiitkota.ac.in", font=("Comic Sans Ms", 15),
             foreground="grey")
 ema.grid(column=5, row=4, sticky=W, padx=5, pady=5)
 phonel = Label(window, text="Phone no:", font=("Comic Sans Ms Bold", 20))
 phonel.grid(column=0, row=5, sticky=E, padx=5, pady=5)
 phone = Entry(window, width=40)
 phone.grid(column=1, row=5, sticky=E, padx=5, pady=5)
-tel = Label(window, text="Tel No: 9928799243 | 7041790259", font=("Comic Sans Ms", 15), foreground="grey")
+tel = Label(window, text="Tel No: 9928****** | 7041*****", font=("Comic Sans Ms", 15), foreground="grey")
 tel.grid(column=5, row=5, sticky=W, padx=5, pady=5)
 stm = Label(window, text="Timestamp:", font=("Comic Sans Ms", 15), foreground="grey")
 stm.grid(column=5, row=6, sticky=W, padx=5, pady=5)
@@ -236,10 +236,10 @@ def onSubmit():
 
     smtp_server = "smtp.gmail.com"
     port = 587  # For starttls
-    sender_email = "mangalrishabh49@gmail.com"
+    sender_email = "mangal******@gmail.com"
     reciever_email =email.get()
     # password = input("Type your password and press enter: ")
-    password = "maihoonnaa"
+    password = "************"
     # message = """\
     # Subject: The Coffee Roaster Feedback Form.
     #
@@ -328,9 +328,9 @@ def onView():
 
     go = Button(newwindow, text="Go", command=show)
     go.grid(column=2, row=3)
-    ema = Label(newwindow, text="Email: 2018kucp1131@iiitkota.ac.in", font=("Comic Sans Ms", 15), foreground="grey")
+    ema = Label(newwindow, text="Email: 2018kucp****@iiitkota.ac.in", font=("Comic Sans Ms", 15), foreground="grey")
     ema.grid(column=5, row=4, sticky=W, padx=5, pady=5)
-    tel = Label(newwindow, text="Tel No: 9928799243 | 7041790259", font=("Comic Sans Ms", 15), foreground="grey")
+    tel = Label(newwindow, text="Tel No: 9928****** | 7041******", font=("Comic Sans Ms", 15), foreground="grey")
     tel.grid(column=5, row=5, sticky=W, padx=5, pady=5)
     stm = Label(newwindow, text="Timestamp:", font=("Comic Sans Ms", 15), foreground="grey")
     stm.grid(column=5, row=6, sticky=W, padx=5, pady=5)
